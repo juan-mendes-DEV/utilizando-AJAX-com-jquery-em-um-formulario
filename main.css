@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.title{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.678);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: 'Silkscreen', sans-serif;
+    margin-bottom: 3em;
+}
+.title-form{
+    color: white;
+    font-weight: bold;
+}
+.container{
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./fundooo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+    
+    
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.one,.two{
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    text-align: center;
+}
+#cep{
+    width: 350px;
+}
+.inputt,.btn{
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    text-align: center;
+}
+.inputt{
+    border-radius: 10px;
+}
+.btn{
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: rgba(121, 3, 255, 0.288);
+}
+.flux {
+    animation: flux 2s linear infinite;
+    -moz-animation: flux 2s linear infinite;
+    -webkit-animation: flux 2s linear infinite;
+    -o-animation: flux 2s linear infinite;
+  }
+  .flax {
+    animation: flux 2s linear infinite;
+    -moz-animation: flux 2s linear infinite;
+    -webkit-animation: flux 2s linear infinite;
+    -o-animation: flux 2s linear infinite;
+  }
+  @keyframes flux {
+    0%,
+    100% {
+      text-shadow: 0 0 1vw #800080, 0 0 3vw #a100a1, 0 0 10vw #c701c7, 0 0 10vw #df02df, 0 0 .4vw #ff27ff, .5vw .5vw .1vw rgba(121, 3, 255, 0);
+      color: rgba(121, 3, 255, 0),;
+    }
+    50% {
+      text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #001b86, 0 0 5vw #0025bb, 0 0 5vw #002cda, 0 0 .2vw #0033ff, .5vw .5vw .1vw rgba(121, 3, 255, 0);
+      color: rgba(121, 3, 255, 0),;
+    }
+  }
+  @keyframes flax {
+    0%,
+    100% {
+      text-shadow: 0 0 1vw #800080, 0 0 3vw #a100a1, 0 0 10vw #c701c7, 0 0 10vw #df02df, 0 0 .4vw #ff27ff, .5vw .5vw .1vw #000000;
+      color: #000000,;
+    }
+    50% {
+      text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #001b86, 0 0 5vw #0025bb, 0 0 5vw #002cda, 0 0 .2vw #0033ff, .5vw .5vw .1vw #000000;
+      color: #000000,;
+    }
+  }
+  
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.d-none{
+    display: none;
+}

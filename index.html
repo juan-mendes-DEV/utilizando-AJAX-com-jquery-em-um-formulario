@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <h1 class="title flux">Formulario Utilizando API Ajax</h1>
+    <section class="container">
+        <form class="form">
+            <div class="one">
+            <p class="title-form">Digite seu nome:</p>
+            <input id="nome" class="inputt" type="text" placeholder="nome" required>
+            <p class="title-form">Digite seu sobrenome:</p>
+            <input class="inputt" type="text" placeholder="sobrenome" required>
+            <p class="title-form">Digite seu email:</p>
+            <input class="inputt" type="text" placeholder="email" required>
+            </div>
+            <div class="two">
+                <p class="title-form">Digite seu cep:</p>
+            <input class="inputt" type="text" placeholder="cep" id="cep" required>
+            <button class="btn flax " type="button" id="btn-cep">
+                buscar 
+            </button>
+            <p class="title-form">Digite seu endereço:</p>
+            <input class="inputt" type="text" placeholder="endereço" id="endereco" >
+            <p class="title-form">Digite o numero :</p>
+            <input class="inputt" type="number" placeholder="numero">
+            <button type="submit" class="btn flax" >Enviar</button>
+            </div>
+        </form>
+    </section>
+  
+   
+	<script src="./jquery.js"></script> 
+    <script src="./jquery.mask.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
